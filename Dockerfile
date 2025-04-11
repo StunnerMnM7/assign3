@@ -1,5 +1,5 @@
 # Use the official lightweight Python image
-FROM python:alpine
+FROM python:3.9-slim
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
